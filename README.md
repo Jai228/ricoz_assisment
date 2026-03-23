@@ -1,3 +1,6 @@
+## markdown 
+This project follows a layered architecture similar to Spring Boot applications.
+
 # 📦 Node Task API
 
 A simple REST API built using Express and MongoDB to manage tasks.
@@ -5,7 +8,7 @@ A simple REST API built using Express and MongoDB to manage tasks.
 ---
 
 ## 📁 Project Structure
-
+```
 project/
 │
 ├── config/ # Database connection
@@ -17,12 +20,12 @@ project/
 ├── app.js # App configuration
 ├── server.js # Entry point
 └── .env # Environment variables
-
+```
 
 ---
 
 ## 🔄 Application Flow
-
+```
 Client Request
 ↓
 Route Layer
@@ -36,7 +39,7 @@ Mongoose Model
 MongoDB
 ↓
 Response
-
+```
 
 ---
 
